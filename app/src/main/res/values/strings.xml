@@ -18,4 +18,5 @@
     <string name="are_you_sure">Are you sure?</string>
     <string name="no">No</string>
     <string name="yes">Yes</string>
+    <string name="edit_item">Edit Grocery Item</string>
 </resources>

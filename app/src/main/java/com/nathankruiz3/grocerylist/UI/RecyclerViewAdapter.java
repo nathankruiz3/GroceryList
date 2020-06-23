@@ -155,7 +155,10 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
             final EditText groceryItem = (EditText) view.findViewById(R.id.groceryItem);
             final EditText quantity = (EditText) view.findViewById(R.id.groceryQty);
+            final TextView title = (TextView) view.findViewById(R.id.title);
             Button saveButton = (Button) view.findViewById(R.id.saveButton);
+
+            title.setText(R.string.edit_item);
 
             builder.setView(view);
             dialog = builder.create();
